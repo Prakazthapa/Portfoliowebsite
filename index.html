@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#skills" style="--i:4">Skills</a> 
+            <a href="#project" style="--i:5">Project</a>
+            <a href="#contact" style="--i:6">Contact Me</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Prakash Thapa</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a student of BSc CSIT with a passion for web development and data analytics. I am continuously
+                learning and exploring the world of technology. My expertise includes web design, front-end development,
+                and data analytics.</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100017924161875" target="_blank" style="--i:7"><i
+                        class='bx bxl-facebook'></i></a> <!--boxicons.com-->
+                <a href="https://www.instagram.com/prakaz_thapa" target="_blank" style="--i:8"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://web.whatsapp.com/send?phone=9814967012" target="_blank" style="--i:9"><i
+                        class='bx bxl-whatsapp'></i></a>
+                <a href="https://twitter.com/ThapaPrakaz" target="_blank" style="--i:10"><i
+                        class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="rounded-container">
+            <img src="my.jpg" class="rounded-image" id="source-image">
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+
+    <section>
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="next.jpg">
+            </div>
+            <div class="about-text">
+
+                <h2>About <span>Me</span></h2>
+                <h4>Aspiring Full Stack Developer & Data Enthusiast</h4>
+                <p>I am currently a student pursuing a BSc in Computer Science and Information Technology, with a keen
+                    interest in web development and data analytics. My journey in the world of technology began with
+                    learning the fundamentals of HTML, CSS, and JavaScript, and I have since explored various
+                    programming languages and tools, including Java and react js.<br><br>
+                    While I may still be in the early stages of my career, I am passionate about creating innovative
+                    solutions and leveraging data-driven insights to make informed decisions. I am constantly seeking
+                    new challenges and opportunities to expand my skills and knowledge in both web development and data
+                    analytics.<br><br>
+                    My ultimate goal is to become a well-rounded professional who can contribute meaningfully to the
+                    tech industry, whether it's by building user-friendly websites or extracting valuable insights from
+                    complex datasets.</p>
+
+
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#00eeff'></i>
+                        <h2>Web Development</h2>
+                        <p>I specialize in creating responsive and user-friendly websites using the latest technologies
+                            such as HTML, CSS, and JavaScript. I ensure seamless functionality and an engaging user
+                            experience.</p>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-palette' style='color:#00eeff'  ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I design intuitive and visually appealing user interfaces to enhance the usability and
+                            accessibility of websites and applications. My designs focus on delivering a seamless user
+                            experience.</p>
+                    </div>
+
+                    <div>
+                        <i class='bx bxs-data' style='color:#00eeff'></i>
+                        <h2>Data Analytics</h2>
+                        <p>I analyze data to extract valuable insights and make informed decisions. Using statistical
+                            techniques and data visualization tools, I uncover trends and patterns to drive business
+                            growth and innovation.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="skills" id="skills">
+        <h1 class="skills-sub-title">My <span>Skills</span></h1>
+
+        <section>
+            <div class="container1">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar"><i class='bx bxl-html5' style="color: #c95d2e"></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar"><i class='bx bxl-css3' style="color: #147bbc"></i>
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar"><i class='bx bxl-javascript' style="color: #b0bc1e"></i>
+                        <div class="info">
+                            <span>Javascript</span>
+                        </div>
+                        <div class="progress-line javascript">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar"><i class='bx bxl-java' style="color: #c32ec9"></i>
+                        <div class="info">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-line java">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar"><i class='bx bxl-react' style="color: #69bcbc"></i>
+                        <div class="info">
+                            <span>react</span>
+                        </div>
+                        <div class="progress-line react">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container2">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+
+                        </svg>
+                        <div class="percentage">40%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+
+                        </svg>
+                        <div class="percentage">60%</div>
+                        <div class="text">Communication</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+
+                        </svg>
+                        <div class="percentage">40%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+
+                        </svg>
+                        <div class="percentage">70%</div>
+                        <div class="text">TeamWork</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="project" id="project">
+            <div class="container">
+                <h2 class="sub-title">Latest <span>Project</span></h2>
+                <div class="main-text">
+                    <div class="project-content">
+                        <div class="row">
+                            <img src="rp.jpg">
+                            <div class="layer">
+                                <h5>Routine Planner using Backtracking algorithm</h5>
+                                <p>Routine planner generates the routine for the single class taking constant as a teachers availability and timeslots. This project is just the implementation of backtracking algorithm done as a project for 7th sem of B.Sc. CSIT.</p>
+                                <a href="https://github.com/Prakazthapa/RoutinePlanner" target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="sjs.jpg">
+                            <div class="layer">
+                                <h5>SastoJerseyStore</h5>
+                                <p>SastoJerseyStore is a ecommerce website done by using wordpress. The main objectives is to sell the jersey of fifferent clubs, countries, etc either football or cricket.</p>
+                                <a href="https://github.com/Prakazthapa/SastoJerseyStore/tree/gh-pages" target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="react.png">
+                            <div class="layer">
+                                <h5>React js workshop project</h5>
+                                <p>Simple project done same as instructor using the concept of React.js JavaScript library and GitHub.</p>
+                                <a href="https://github.com/Prakazthapa/react-js"  target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Thank you for visiting my portfolio! I'm excited to connect with you and discuss potential opportunities
+                for collaboration. Feel free to reach out to me using the contact details below:</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> prakasambhav24@gmail.com</li>
+                <li><i class='bx bx-phone'></i> +977-9814967012</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/profile.php?id=100017924161875" target="_blank"><i
+                        class='bx bxl-facebook-circle'></i></a>
+                <a href="https://twitter.com/ThapaPrakaz" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/prakaz_thapa" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/prakash-thapa-696646300/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+<!-- 
+        <div class="contact-form">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject">
+                <textarea name="message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+            
+        </div> -->
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Prakash Thapa © 2024</p>
+    </div>
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
