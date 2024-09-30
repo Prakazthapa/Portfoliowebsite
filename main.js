@@ -1,5 +1,9 @@
 var typed=new Typed(".text",{
-    strings:["Aspiring Full Stack Developer","Aspiring Data Enthusiast"],
+    strings:[
+    "MERN Full Stack Developer",
+    "Frontend React Developer",
+    "Backend Node.js Developer",
+  ],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
