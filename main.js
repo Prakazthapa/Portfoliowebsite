@@ -1,13 +1,13 @@
-var typed=new Typed(".text",{
-    strings:[
+var typed = new Typed(".text", {
+  strings: [
     "MERN Full Stack Developer",
     "Frontend React Developer",
     "Backend Node.js Developer",
   ],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop:true 
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
 });
 
 
