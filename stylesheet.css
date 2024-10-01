@@ -574,9 +574,9 @@ section {
 }
 
 .project-content {
-    display: flex;
-    grid-template-columns: repeat(auto-fit,minmax(359px,auto));
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 60px 20px; 
 }
 
 .row {
@@ -587,6 +587,7 @@ section {
     padding-left: 20px;
     height: 280px;
 }
+
 
 .row img {
     width: 100%;
@@ -653,7 +654,7 @@ section {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 3rem;
-    padding-left: 30px;
+    padding-left: 100px;
     margin-top: 130px;
 }
 

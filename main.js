@@ -31,3 +31,19 @@ function createRoundedImage() {
 }
 
 createRoundedImage();
+
+document.addEventListener("click", function (event) {
+  var navbar = document.querySelector(".navbar");
+  var navToggle = document.querySelector(".nav-toggle");
+  var isClickInsideNavbar = navbar.contains(event.target);
+  var isClickInsideNavToggle = navToggle.contains(event.target);
+
+  if (!isClickInsideNavbar && !isClickInsideNavToggle) {
+    navbar.classList.remove("active");
+  }
+});
+
+function toggleMenu() {
+  var navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("active");
+}

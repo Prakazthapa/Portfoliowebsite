@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width,initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
@@ -14,13 +14,18 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <nav class="navbar">
             <a href="#" style="--i:1" class="active">Home</a>
             <a href="#about" style="--i:2">About</a>
             <a href="#services" style="--i:3">Services</a>
-            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#skills" style="--i:4">Skills</a> 
             <a href="#project" style="--i:5">Project</a>
-            <a href="#contact" style="--i:6">Contact</a>
+            <a href="#contact" style="--i:6">Contact Me</a>
         </nav>
     </header>
     <section class="home">
@@ -54,7 +59,7 @@
             <div class="about-text">
 
                 <h2>About <span>Me</span></h2>
-                <h4>Passionate MERN Full Stack Developer</h4>
+                <h4>MERN Full Stack Developer</h4>
                 <p>I am finished a BSc in Computer Science and Information Technology, with a strong passion for full-stack web development and data analytics. My journey in technology began with mastering the fundamentals of HTML, CSS, and JavaScript, and has since expanded to include expertise in modern web development using the MERN stack (MongoDB, Express, React, and Node.js).<br><br>
                 While still in the early stages of my career, I am driven by the desire to create innovative, scalable web solutions and use data-driven insights to solve complex problems. Whether it's designing intuitive user interfaces or building robust back-end systems, I am constantly honing my skills to become proficient in every aspect of full-stack development.<br><br>
                 My ultimate goal is to be a versatile professional who can contribute meaningfully to the tech industry—whether by building seamless web applications or leveraging data to drive impactful decisions and growth.</p>
@@ -220,37 +225,41 @@
                 <div class="main-text">
                     <div class="project-content">
                         <div class="row">
-                            <img src="rp.jpg">
+                            <img src="tdl.png" alt="To Do List">
                             <div class="layer">
-                                <h5>UI/UX Design</h5>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quia eveniet
-                                    quaerat rem necessitatibus, porro illum, sequi molestiae cumque nam dolores ipsa
-                                    excepturi voluptates quae dolor cupiditate corporis soluta alias.</p>
-                                <a href="#"><i class='bx bx-link-external'></i></a>
+                                <h5>To Do List</h5>
+                                <p>A React-based website using Node.js for the backend and MongoDB as the database. It allows users to create, read, update, and delete (CRUD) tasks.</p>
+                                <a href="https://github.com/Prakazthapa/Todolist"><i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
-
+                        
                         <div class="row">
-                            <img src="sjs.jpg">
+                            <img src="rlm.png" alt="React Login Management">
                             <div class="layer">
-                                <h5>UI/UX Design</h5>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quia eveniet
-                                    quaerat rem necessitatibus, porro illum, sequi molestiae cumque nam dolores ipsa
-                                    excepturi voluptates quae dolor cupiditate corporis soluta alias.</p>
-                                <a href="#"><i class='bx bx-link-external'></i></a>
+                                <h5>React Login Management</h5>
+                                <p>A secure login management system built with the MERN stack, utilizing JWT for authentication and session management.</p>
+                                <a href="https://github.com/Prakazthapa/React-Login-Management"><i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
-
+                        
                         <div class="row">
-                            <img src="react.png">
+                            <img src="rp.jpg" alt="Routine Planner">
                             <div class="layer">
-                                <h5>UI/UX Design</h5>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quia eveniet
-                                    quaerat rem necessitatibus, porro illum, sequi molestiae cumque nam dolores ipsa
-                                    excepturi voluptates quae dolor cupiditate corporis soluta alias.</p>
-                                <a href="#"><i class='bx bx-link-external'></i></a>
+                                <h5>Routine Planner - Implementation of Backtracking Algorithm</h5>
+                                <p>A simple web-based UI that uses a backtracking algorithm to generate routine schedules for a single class.</p>
+                                <a href="https://github.com/Prakazthapa/RoutinePlanner"><i class='bx bx-link-external'></i></a>
                             </div>
                         </div>
+                        
+                        <div class="row">
+                            <img src="sjs.jpg" alt="Sasto Jersey Store">
+                            <div class="layer">
+                                <h5>Sasto Jersey Store using WordPress</h5>
+                                <p>An e-commerce website built with WordPress, utilizing a free theme named "Big Store" to sell jerseys.</p>
+                                <a href="https://github.com/Prakazthapa/Sasto-Jersey-Store"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -266,7 +275,7 @@
             <p>Thank you for visiting my portfolio! I'm excited to connect with you and discuss potential opportunities
                 for collaboration. Feel free to reach out to me using the contact details below:</p>
             <div class="contact-list">
-                <li><i class='bx bxs-send'></i> prakashthapa2421.com</li>
+                <li><i class='bx bxs-send'></i> prakashthapa2421.com/<br>prakasambhav24@gmail.com</li>
                 <li><i class='bx bx-phone'></i> +977-9814967012</li>
             </div>
             <div class="contact-icons">
@@ -279,7 +288,7 @@
             </div>
         </div>
 
-        <div class="contact-form">
+        <!-- <div class="contact-form">
             <form action="form-handler.php" method="post">
                 <input type="" placeholder="Enter Your Name" required>
                 <input type="email" placeholder="Enter Your Email" required>
@@ -287,7 +296,7 @@
                 <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
                 <input type="submit" value="submit" class="send">
             </form>
-        </div>
+        </div> -->
     </section>
 
     <div class="last-text">
